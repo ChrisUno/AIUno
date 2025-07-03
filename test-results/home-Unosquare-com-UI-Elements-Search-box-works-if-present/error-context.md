@@ -1,0 +1,302 @@
+# Page snapshot
+
+```yaml
+- dialog "Cookie banner":
+  - paragraph: This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember you. We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors both on this website and other media. To find out more about the cookies we use, see our Privacy Policy.
+  - button "Accept"
+- link "Skip to content":
+  - /url: "#content"
+- link "unosquare logo":
+  - /url: https://www.unosquare.com
+  - img "unosquare logo"
+- menu:
+  - navigation "Menu":
+    - list:
+      - listitem:
+        - link "Services ":
+          - /url: https://www.unosquare.com/services/
+      - listitem:
+        - link "Capabilities ":
+          - /url: https://www.unosquare.com/capabilities/
+      - listitem:
+        - link "Industries ":
+          - /url: https://www.unosquare.com/industries/
+      - listitem:
+        - link "Our Work":
+          - /url: https://www.unosquare.com/case-study/
+      - listitem:
+        - link "Resources ":
+          - /url: "#"
+      - listitem:
+        - link "About Us":
+          - /url: https://www.unosquare.com/about-us/
+      - listitem:
+        - link "Careers":
+          - /url: /careers/
+- link "Contact Us":
+  - /url: /contact-us/
+- main:
+  - heading "Skilled Design & Development for Your Digital Solutions" [level=1]
+  - paragraph:
+    - text: At
+    - strong: unosquare
+    - text: ", we provide full-cycle digital engineering services and solutions for growing companies in regulated and data intensive industries."
+  - link "Speak to an expert":
+    - /url: "#contact-form"
+  - link:
+    - /url: https://clutch.co/profile/unosquare
+  - region "Image Carousel":
+    - group "2 / 6":
+      - figure:
+        - img "foundation-medicine_logo"
+    - group "3 / 6":
+      - figure:
+        - img "southern-company-logo.wine"
+    - group "4 / 6":
+      - figure:
+        - img "hoffmann-la-roche-logo"
+    - group "5 / 6":
+      - figure:
+        - img "axos-bank-tiny-logo"
+  - region "Image Carousel":
+    - group "2 / 6":
+      - figure:
+        - img "thermo-fisher-scientific"
+    - group "3 / 6":
+      - figure:
+        - img "bayer logo"
+    - group "4 / 6":
+      - figure:
+        - img "rrd-logo"
+    - group "5 / 6":
+      - figure:
+        - img "flatiron-logo"
+    - group "6 / 6":
+      - figure:
+        - img "nonstop-logo"
+  - heading "Services" [level=2]
+  - paragraph:
+    - text: Whether it’s accessing a few hard-to-find experts, delivering an end-to-end solution or constructing cross-functional teams to support ambitious agendas,
+    - strong: unosquare
+    - text: offers flexible services to deliver to your needs.
+  - paragraph:
+    - link "Learn more":
+      - /url: /services/
+  - img
+  - img "unosquare services"
+  - heading "Capacity" [level=3]
+  - paragraph: Ideal for quickly ramping up or scaling down your team size based on project demands, ensuring you have the right talent at the right time.
+  - paragraph:
+    - link "Explore Service":
+      - /url: /services/capacity/
+  - img
+  - heading "Outcomes" [level=3]
+  - paragraph: Ideal for when you have an end-to-end project with a clear scope to be delivered and you look for a fixed price and timeline certainty.
+  - paragraph:
+    - link "Explore Service":
+      - /url: /services/outcomes/
+  - img
+  - heading "Teams" [level=3]
+  - paragraph: Ideal for when you need dedicated self-managed teams operating within your environment and synchronized to your organization to deliver on your evolving roadmap.
+  - paragraph:
+    - link "Explore Service":
+      - /url: /services/teams/
+  - img
+  - heading "Industries" [level=2]
+  - paragraph:
+    - text: Industry leaders and emerging innovators repeatedly choose
+    - strong: unosquare
+    - text: for our proven expertise delivering across diverse sectors
+  - paragraph:
+    - link "Learn more":
+      - /url: /industries/
+  - img
+  - img "finance"
+  - heading "Financial Services" [level=3]
+  - img
+  - heading "Healthcare" [level=3]
+  - img
+  - heading "Media & Publishing" [level=3]
+  - img
+  - heading "Hi-tech" [level=3]
+  - img
+  - heading "Energy & Utilities" [level=3]
+  - img
+  - heading "Non-Profits" [level=3]
+  - img
+  - region "Carousel":
+    - group "1 / 4":
+      - paragraph: Very appreciative of their willingness to help us overcome numerous challenges.
+      - paragraph: Director of Engineering
+  - button "Go to slide 1"
+  - button "Go to slide 2"
+  - button "Go to slide 3"
+  - button "Go to slide 4"
+  - heading "Capabilities" [level=2]
+  - heading "Business Strategy" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-bs
+  - img
+  - heading "Software Engineering" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-se
+  - img
+  - heading "Quality Engineering" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-qe
+  - img
+  - heading "Product Engineering" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-pd
+  - img
+  - heading "Data & AI" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-dai
+  - img
+  - heading "Digital Design" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-dd
+  - img
+  - heading "Cloud & Infrastructure" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-dci
+  - img
+  - heading "IT Operations" [level=3]
+  - paragraph:
+    - link "Learn more":
+      - /url: /capabilities/?section=center-excellence-ito
+  - img
+  - heading "Modern Solutions to Your Challenges" [level=2]
+  - heading "More Output Without More Overhead" [level=3]
+  - paragraph: Increase your output without the extra hires through our flexible services. Whether it’s a team, project or individual – we can help.
+  - heading "Solve for AI" [level=3]
+  - paragraph: Your business can’t afford to fall behind in understanding the opportunities and implications of AI. Start with an informed AI roadmap.
+  - heading "Digital Transformation" [level=3]
+  - paragraph: The underpinning technologies for legacy platforms, integrations, and new systems can vary greatly – match your stack to the experts.
+  - heading "Modernize Digital Products" [level=3]
+  - paragraph: Stay competitive, scalable and aligned with evolving user expectations. Leverage the latest technologies and best practices to enhance performance, improve security and create more seamless, engaging experiences.
+  - heading "Cost Savings" [level=3]
+  - paragraph: Manage a reduced budget but maintain your development agenda. Partner with us for the right nearshore experts without burdening your organization.
+  - heading "Unlock Success Together" [level=2]
+  - heading "unosquare by the Numbers" [level=3]
+  - text: Client Retention 0 % Client NPS 0 Client Reviews 0 Employees 0 + Employee NPS 0 Glassdoor Rating 0
+  - heading "Awards" [level=3]
+  - paragraph: Fastest Growing Companies in America
+  - paragraph: 9x Recipient
+  - paragraph: Portland’s Fastest Growing 100 Companies
+  - paragraph: 10 Years in a row
+  - heading "Strengthen Your Team with Award-Winning Technical Talent" [level=3]
+  - group:
+    - text: First name*
+    - textbox "First name*"
+    - text: Last name*
+    - textbox "Last name*"
+  - group:
+    - text: Email*
+    - textbox "Email*"
+    - text: Phone number
+    - textbox "Phone number"
+  - group:
+    - text: What are you looking to achieve?*
+    - textbox "What are you looking to achieve?*"
+  - iframe
+  - button "Unlock Dedicated Talent"
+- link:
+  - /url: /
+- heading "Engineering Excellence One Roadmap at a Time" [level=2]
+- link:
+  - /url: https://clutch.co/profile/unosquare
+- paragraph:
+  - link "Average Review Rating":
+    - /url: https://clutch.co/profile/unosquare
+- paragraph:
+  - link "4.9":
+    - /url: https://clutch.co/profile/unosquare
+- link:
+  - /url: https://clutch.co/profile/unosquare
+- link:
+  - /url: https://www.facebook.com/unosquare/
+- link:
+  - /url: https://www.instagram.com/unosquare/
+- link:
+  - /url: https://github.com/unosquare
+- link:
+  - /url: https://www.linkedin.com/company/293703/
+- heading "Work With Us" [level=2]
+- navigation "Menu":
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: https://www.unosquare.com/about-us/
+    - listitem:
+      - link "Capabilities":
+        - /url: https://www.unosquare.com/capabilities/
+    - listitem:
+      - link "Services":
+        - /url: https://www.unosquare.com/services/
+    - listitem:
+      - link "Careers":
+        - /url: /careers/
+- heading "Services" [level=2]
+- navigation "Menu":
+  - list:
+    - listitem:
+      - link "Capacity":
+        - /url: https://www.unosquare.com/services/capacity/
+    - listitem:
+      - link "Outcomes":
+        - /url: https://www.unosquare.com/services/outcomes/
+    - listitem:
+      - link "Teams":
+        - /url: https://www.unosquare.com/services/teams/
+- heading "Industries" [level=2]
+- navigation "Menu":
+  - list:
+    - listitem:
+      - link "Financial Services":
+        - /url: /industries/financial-services/
+    - listitem:
+      - link "Healthcare":
+        - /url: https://www.unosquare.com/industries/healthcare/
+    - listitem:
+      - link "Media & Publishing":
+        - /url: https://www.unosquare.com/industries/media-and-publishing/
+    - listitem:
+      - link "Hi-tech":
+        - /url: https://www.unosquare.com/industries/hi-tech/
+    - listitem:
+      - link "Energy & Utilities":
+        - /url: https://www.unosquare.com/industries/energy-and-utilities/
+    - listitem:
+      - link "Non-Profits":
+        - /url: https://www.unosquare.com/industries/non-profits/
+- heading "Resources" [level=2]
+- navigation "Menu":
+  - list:
+    - listitem:
+      - link "Our Work":
+        - /url: https://www.unosquare.com/case-study/
+    - listitem:
+      - link "Blog":
+        - /url: /blog/
+    - listitem:
+      - link "Guides":
+        - /url: /guides/
+- paragraph: © 2025 unosquare, Inc. All Rights Reserved.
+- navigation "Menu":
+  - list:
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://www.unosquare.com/privacy-policy/
+    - listitem:
+      - link "App Privacy Policy":
+        - /url: https://www.unosquare.com/app-privacy-policy/
+- text: desktop
+```
