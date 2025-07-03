@@ -4,6 +4,21 @@ function randomDelay(min = 100, max = 400) {
   return new Promise(res => setTimeout(res, Math.floor(Math.random() * (max - min + 1)) + min));
 }
 
+export async function getMainNavLinks(page: Page): Promise<string[]> {
+  // Try to get all visible nav links from the main navigation bar
+  const navLinks = await page.$$eval('nav a[href]', links =>
+    links
+      .filter(l => {
+        const a = l as HTMLAnchorElement;
+        return a.offsetParent !== null && typeof a.href === 'string' && !a.href.startsWith('javascript:') && !a.href.endsWith('#');
+      })
+      .map(l => (l as HTMLAnchorElement).getAttribute('href') || '')
+      .filter(Boolean)
+  );
+  // Remove duplicates and keep only internal links
+  return Array.from(new Set(navLinks)).filter(href => href.startsWith('/') || href.startsWith('https://www.unosquare.com'));
+}
+
 export async function checkAllLinks(page: Page) {
   const links = await page.$$('a[href]');
   for (const link of links) {
