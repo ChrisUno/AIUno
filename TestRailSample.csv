@@ -1,0 +1,5 @@
+Title,Steps,Expected Result
+All links are clickable and lead to valid pages,"1. Navigate to https://www.unosquare.com 2. Click every link on the page","Each link opens the correct page without errors"
+All buttons are clickable,"1. Navigate to https://www.unosquare.com 2. Click every button on the page","Each button is clickable and triggers its expected action"
+All images load successfully,"1. Navigate to https://www.unosquare.com 2. Check every image on the page","All images load without broken links (status < 400)"
+Search box works if present,"1. Navigate to https://www.unosquare.com 2. Locate the search box 3. Enter 'test' and submit","Search results page loads or results are displayed" 
